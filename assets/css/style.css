@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: gray;
+    height: 100%;
+
+}
+
+p {
+    
+}
+
+.outer-box {
+    padding: 2%;
+    border: 1px solid blue;
+}
+
+.header-bar p {
+    float: right;
+    background-color: white;
+}
+
+.header-bar a {
+    float: left;
+    background-color: white;
+    color: blue;
+}
+
+.inner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quiz-header {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.quiz-content {
+    
+}
